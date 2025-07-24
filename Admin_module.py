@@ -36,21 +36,33 @@ time.sleep(2)
 click_organization_dropdown_button = driver.find_element(By.CSS_SELECTOR,'#app > div.oxd-layout.orangehrm-upgrade-layout > div.oxd-layout-navigation > header > div.oxd-topbar-body > nav > ul > li:nth-child(3) > span')
 click_organization_dropdown_button.click()
 time.sleep(2)
+
+#Click on Qualification Button
 click_qualification_dropdown_button = driver.find_element(By.CSS_SELECTOR, '#app > div.oxd-layout.orangehrm-upgrade-layout > div.oxd-layout-navigation > header > div.oxd-topbar-body > nav > ul > li:nth-child(4) > span')
 click_qualification_dropdown_button.click()
 time.sleep(2)
+
+#Click on Nationalities Button
 click_nationalities_button = driver.find_element(By.XPATH,'//*[@id="app"]/div[1]/div[1]/header/div[2]/nav/ul/li[5]/a')
 click_nationalities_button.click()
 time.sleep(4)
+
+#Click on Corporate Branding Button
 click_corporate_branding_button = driver.find_element(By.XPATH,'//*[@id="app"]/div[1]/div[1]/header/div[2]/nav/ul/li[6]/a')
 click_corporate_branding_button.click()
 time.sleep(4)
+
+#Click on Configuration Button
 click_configuration_dropdown_button = driver.find_element(By.XPATH,'//*[@id="app"]/div[1]/div[1]/header/div[2]/nav/ul/li[7]/span')
 click_configuration_dropdown_button.click()
 time.sleep(2)
+
+#Click on User Profile Button
 click_user_profile_button = driver.find_element(By.XPATH, '//*[@id="app"]/div[1]/div[1]/header/div[1]/div[3]/ul/li/span/p')
 click_user_profile_button.click()
 time.sleep(2)
+
+#Click on Logout button
 click_logout_button = driver.find_element(By.XPATH,'//*[@id="app"]/div[1]/div[1]/header/div[1]/div[3]/ul/li/ul/li[4]/a')
 click_logout_button.click()
 time.sleep(4)
