@@ -66,3 +66,5 @@ time.sleep(2)
 click_logout_button = driver.find_element(By.XPATH,'//*[@id="app"]/div[1]/div[1]/header/div[1]/div[3]/ul/li/ul/li[4]/a')
 click_logout_button.click()
 time.sleep(4)
+
+driver.quit()
